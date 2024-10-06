@@ -58,6 +58,7 @@ class BaseQueue:
 
         # If lamda is a tuple, check if each element in lamda is a number
         # before we compare to 0.
+        #penis
         if isinstance(lamda, (tuple, list)):
             for i in range(len(lamda)):
                 if not isinstance(lamda[i], numbers.Number) or not lamda[i] > 0:
